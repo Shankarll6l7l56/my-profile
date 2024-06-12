@@ -1,0 +1,114 @@
+h1 {
+  font-size: 45px;
+}
+#header {
+  height: 100vh;
+  /* background: rgb(148, 148, 178); */
+  background-image: url('https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-21.jpg');
+  background-repeat: no-repeat; background-size: cover;
+}
+
+
+.navbar a:hover {
+  background: red;
+  border-radius: 10%;
+  padding: 1px;
+  color: white;
+  font-size: 13px;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(148, 148, 178);
+  z-index: 1030;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 991.98px) {
+  #navbar {
+    display: none;
+  }
+  #header{
+    height: 50vh;
+  }
+
+  .navbar.navbar-toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(148, 148, 178);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+  }
+}
+
+.bg-icon {
+  padding: 8px;
+  background-color: blue;
+  border-radius: 100%;
+}
+.count-box {
+  border-radius: 100%;
+  margin-top: -20px;
+  width: 20%;
+  text-align: center;
+  color: azure;
+  position: relative;
+  background-color: rgb(121, 117, 113);
+}
+.after {
+  position: relative;
+}
+.after::after {
+  top: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 80px;
+  content: "";
+  background-color: aqua;
+  width: 15%;
+  height: 10%;
+}
+.card {
+  background-color: rgb(240, 229, 215);
+}
+.card:hover {
+  background-color: rgb(183, 189, 189);
+}
+.bg-service {
+  background-color: rgb(238, 227, 227);
+}
+/* .bg-service2:hover {
+  background-color: red !important;
+  color: white;
+  transition: 0.7s;
+} */
+.bg-service:hover {
+  background-color: aqua;
+  color: white;
+  transition: 0.7s;
+}
+.over:hover {
+  opacity: 0.5;
+}
+.bghover {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: rgb(8, 135, 135);
+  text-align: center;
+  padding: 11px;
+  color: white;
+}
+.bghover:hover {
+  border: 2px solid red;
+  color: red;
+  background-color: white;
+}
