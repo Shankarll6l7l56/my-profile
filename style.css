@@ -4,7 +4,7 @@ h1 {
 #header {
   height: 100vh;
   /* background: rgb(148, 148, 178); */
-  background-image: url('https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-21.jpg');
+  background-image: url('./img/free-website-background-21.jpg');
   background-repeat: no-repeat; background-size: cover;
 }
 
