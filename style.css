@@ -112,3 +112,10 @@ h1 {
   color: red;
   background-color: white;
 }
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background: aqua; 
+  border-radius: 5px;
+}
