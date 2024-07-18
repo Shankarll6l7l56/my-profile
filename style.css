@@ -113,7 +113,7 @@ h1 {
   background-color: white;
 }
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 15px;
 }
 ::-webkit-scrollbar-thumb {
   background: aqua; 
